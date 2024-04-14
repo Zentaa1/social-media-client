@@ -13,7 +13,7 @@ This assignment focuses on establishing an effective workflow and writing tests 
 
 ### Clone repository: 
  ```bash
-   git clone https://github.com/Zentaa1/social-media-client/tree/workflow
+   git clone https://github.com/Zentaa1/social-media-client/
 ```
 
 ### Install Dependencies:

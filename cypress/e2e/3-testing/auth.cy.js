@@ -111,7 +111,7 @@ describe('Wrong Login', () => {
   it('Should not redirect to another page', () => {
     cy.getLoginForm();
     cy.loginReq('incorrectemail4567@stud.noroff.no', 'Incorrectpass4567');
-    cy.url().should('eq', '/');
+    cy.url().should('eq', 'https://zentaa1.github.io/social-media-client/');
   });
 });
 
@@ -122,7 +122,7 @@ describe('Log out', () => {
     cy.getLoginForm();
     cy.loginReq(email, password);
     cy.logoutReq();
-    cy.url().should('eq', '/');
+    cy.url().should('eq', 'https://zentaa1.github.io/social-media-client/');
   });
 
   it('Should remove token from local storage', () => {

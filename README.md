@@ -5,7 +5,8 @@ This assignment focuses on establishing an effective workflow and writing tests 
 ## badges
 
 ![Deploy static content to Pages](https://github.com/Zentaa1/social-media-client/actions/workflows/pages.yml/badge.svg)
-![Deploy static content to Pages](https://github.com/Zentaa1/social-media-client/actions/workflows/unit-test.yml/badge.svg)
+![Automated unit testing](https://github.com/Zentaa1/social-media-client/actions/workflows/unit-test.yml/badge.svg)
+![Automated e2e testing](https://github.com/Zentaa1/social-media-client/actions/workflows/e2e-test.yml/badge.svg)
 
 
 ## Installiation:

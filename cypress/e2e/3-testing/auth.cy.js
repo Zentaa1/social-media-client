@@ -122,7 +122,7 @@ describe('Log out', () => {
     cy.getLoginForm();
     cy.loginReq(email, password);
     cy.logoutReq();
-    cy.get(loginBtn).should('be.visible');
+    cy.get(loginFormBtn).should('be.visible');
   });
 
   it('Should remove token from local storage', () => {
